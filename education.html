@@ -1,0 +1,179 @@
+<html>
+<head>
+	<!-- icon stylesheet link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+	
+	<!-- link with css -->
+	<link rel="stylesheet" type="text/css" href="css/mycss.css">
+	
+	<!-- covers almost all of the characters and symbols in the world!-->
+    <meta charset="UTF-8">
+	
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Education & Skills </title>
+	
+    <style>
+	
+		table,th,td{
+		
+			padding : 5px;
+			border : 0.1px solid;
+			border-colapse: colapse;
+		}
+		
+		th{
+			text-align:left;
+			text-decoration: underline;
+		}
+	
+    </style>
+</head>
+
+<body>
+   
+    <div class="binding">
+     <!--Top Menu & Menu button-->
+        <div class="sidebar">
+            <div class="profile">
+                <!--Profile Image-->
+				<img src="image/profile.png" alt="">
+				
+                <!--Profile Title & Descruption-->
+				<h3> Muhd Akmal </h3>
+				<p> Computer Science Student</p>
+            </div>
+			
+             <!--Menu item-->
+			<ul>
+				<li><a href="index.html" >   <!--Highlight as a sign to indicate on that page-->
+					<span class="icon"><i class="fas fa-home"></i></span> 
+					<span class="item"> Home </span> 
+			
+				</a></li>
+				
+				<li><a href="aboutme.html" > 
+					<span class="icon"><i class="fa-solid fa-user-astronaut"></i></span> 
+					<span class="item"> About Me </span> 
+			
+				</a></li>
+
+				<li><a href="#" class="active">  
+					<span class="icon"><i class="fa-solid fa-graduation-cap"></i></span> 
+					<span class="item"> Education & Skill </span> 
+			
+				</a></li>
+				
+				<li><a href="portfolio.html"> 
+					<span class="icon"><i class="fas fa-chart-line"></i></span> 
+					<span class="item"> Portfolio </span> 
+			
+				</a></li>
+				
+				<li><a href="work.html"> 
+					<span class="icon"><i class="fa-solid fa-person-digging"></i></span> 
+					<span class="item"> Work Experience </span> 
+			
+				</a></li>
+				
+				<li><a href="contactme.html">
+					<span class="icon"><i class="fa-solid fa-phone"></i></span> 
+					<span class='item'> Contact Me </span> 
+			
+				</a></li>
+			</ul>
+       </div>
+	   
+        <!-- top menu bar -->
+		<div class="section">
+			<div class="top_navbar">
+				<div class="openclose">
+						<a href="#"><i class="fas fa-bars"></i>
+						
+						</a>
+				</div>
+			</div>
+			
+				<!-- isi -->
+			    <div class="container">
+					<h1 style="font-family: Old English Text MT;"> education </h1>
+					<br>
+					<table style="table-layout:auto">
+						<tr>
+							<th> Kindergarten  </th>
+							<th> Primary School </th>
+							<th> Secondary School  </th>
+							<th> College </th>
+						</tr>
+						
+						<tr>
+							<td> Tabika Kemas Pekan Lukut (2007)  </td>
+							<td> Sekolah Kebangsaan Seksyen 20 (2009-2014) </td>
+							<td> Sekolah Menengah Kebangsaan Seksyen 19 (2015-2018) </td>
+							<td> Universiti Teknologi Mara (2020-2023)  </td>
+						</tr>
+						
+						<tr>
+							<td>Tabika Kemas Batu 3 (2007-2008)   </td>
+							<td>   </td>
+							<td> Port Dickson High School (2018-2019)  </td>
+							<td>   </td>
+						</tr>
+					</table>
+					
+					<br><br>
+					
+					<h1 style="font-family: Old English Text MT;"> skills+ </h1> <br>
+					<div class="containerskill">
+						<div class="skill">
+						
+							<h2> C++ </h2>
+							<div class="progress-bar">
+								<div class="cplus"><span>70%</span> </div>
+							
+							</div>
+							
+							<h2> Java </h2>
+							<div class="progress-bar">
+								<div class="java"><span>75%</span> </div>
+							
+							</div>
+							
+							<h2> HTML </h2>
+							<div class="progress-bar">
+								<div class="html"><span>60%</span> </div>
+							
+							</div>
+							
+							<h2> CSS </h2>
+							<div class="progress-bar">
+								<div class="css"><span>50%</span> </div>
+							
+							</div>
+							
+							<h2> JavaScript </h2>
+							<div class="progress-bar">
+								<div class="javascript"><span>20%</span> </div>
+							
+							</div>
+							
+						</div>
+					</div>
+					
+				</div>
+		</div>	
+		
+    </div>
+	
+	<div class="footer">
+		<p>Copyright &copy; 2022 Akmal a.k.a dxiiren</p>
+	</div>
+	
+	<!-- Active menu button using javascript-->
+	<script>
+		var openclose = document.querySelector(".openclose");
+		openclose.addEventListener("click", function(){
+			document.querySelector("body").classList.toggle("active");
+		})
+	</script>
+</body>
+</html>
