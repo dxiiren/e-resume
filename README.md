@@ -8,7 +8,7 @@ Welcome to the 'E-Resume' project! This is a web-based resume I created during m
 - Portfolio
 - Working Experience
 
-**To View Your Resume:**
+**To View The Resume:**
 
 1. Open the `index.html` file in your web browser. This file serves as the entry point to the digital resume.
 
